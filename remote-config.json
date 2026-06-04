@@ -3,7 +3,7 @@
   "schema_version": 1,
   "updated_at": "2026-06-04T00:00:00Z",
   "channels": {
-    "beta": { "passphrase_hash": "", "expires": "2026-12-31T23:59:59Z" },
+    "beta": { "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd", "expires": "2026-06-30T23:59:59Z" },
     "stable": { "passphrase_hash": "", "expires": "2027-06-30T23:59:59Z" }
   },
   "feature_flags": {
