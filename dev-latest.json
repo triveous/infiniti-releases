@@ -1,11 +1,11 @@
 {
-  "version": "0.3.4",
-  "notes": "Infiniti 0.3.4",
-  "pub_date": "2026-06-06T14:47:00.397Z",
+  "version": "0.3.5",
+  "notes": "Infiniti 0.3.5",
+  "pub_date": "2026-06-06T16:10:33.795Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGZwSVUrTTBScVRBZldlSHJVem4veW1vOUlRZG85bHJrL29hUTVxVlR1T0I1VUw5TWdXOWxKMVY3ZnZQQ1VmQ2NoZ0tqOC96UEM2N2llOEdMU3IvdHdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNzU3MjE1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpNcVdqMnBzZFJNcmlJd0VVb1dldUFRLzgzdldOb0J2K1QybkNhQ2dLSHkvYWF5eXlqT0hPdDdZWE9wR3hVZ3FqcTd4a28zRkJOZE8vaERuUENVcGlBZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.4/Infiniti_0.3.4_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGViRWorMGNlRTgvZFY0ZzBQeThrTkNNbURTc094K2w2QnRWOS9saTJhU1NKNzR4Rlc0SDI3c1orV24zZ0xuZzhrbnFaZmpFbDV6MEhsUWhoY3Urd0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNzYyMjI4CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpvdzI1RHR4VGY2Z2VQa1NzNWlOdEw2cWJyaUVnSHh5alA4RVdEaGNORVFOckRmVjcxcDdBV2oxM1RNQ3lJOTZhc2RJbHRTTmVQR21FdkNreWdYY2ZEUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.5/Infiniti_0.3.5_aarch64.app.tar.gz"
     }
   }
 }
