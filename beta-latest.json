@@ -1,11 +1,11 @@
 {
-  "version": "0.3.0",
-  "notes": "**New**\n\n- **Send Feedback from inside the app** — Cmd+K → \"Send Feedback\" (or Help →\n  Report a Problem). Bug reports and ideas go straight to the team, with an\n  option to attach recent logs (no note content, ever).\n- **\"What's New\"** — after an update, a quick summary of what changed.\n- **Privacy & Data settings** with a one-time, opt-in choice on first launch:\n  anonymous crash reports and usage analytics, both **off by default**. No note\n  content, titles, or search queries are ever collected.\n\n**Under the hood**\n\n- Built-in logging with automatic crash capture, a **safe-mode** recovery path\n  if the app ever fails to start repeatedly, remotely-controlled feature flags /\n  kill switches, and **release channels** (Dev/Beta/Stable) — the groundwork for\n  shipping updates faster and more safely. (PRD Addendum 14.)",
-  "pub_date": "2026-06-04T16:00:18.613Z",
+  "version": "0.3.6",
+  "notes": "Infiniti 0.3.6",
+  "pub_date": "2026-06-07T14:56:08.464Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGFwei9JNUpLK3JvSE5zbDF0NTh4NVZFTGwyUkQyOE1vZWxERkRtZUxWcFNSSkhOcWdzVGRpbytvS2l6ZkVGRXZZYlhvb0lTQkp3ZENMS3NEbkpqK3dNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNTg4ODEzCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negppeUhQc1RSTGZ5aXRPUmdLcFhjV0pBZDdJLzdpNk85SEpzM25RRmUzOWxZL3FhelppcDg2L0R6cExNVTkzVmdGdU13NXFnRmlia3QrbWRWeFh6aHNDUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/beta-v0.3.0/Infiniti_0.3.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFN4M2VCRUlkSEh2ejFYNjZjNTkxdDU2VkVrc08yZkF3dWRBQjZ2M0FNbVN5dHdlL2FkS2NjbXdFQlhtdnZOdVpKN0R1elJzalFGNXBHK1FFNnV0R3c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwODQ0MTY0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp1MEw1Y1dIM3dmb2p3aCswdGdRbmtyVkd2Z09CMFpqdFZCWEF4a2VHQ29jai9Bc1YydmpodFdpc2w4a0JvR3ZkRFIwbnFVMWZXOXZRM2dPcmkxaEpCUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/beta-v0.3.6/Infiniti_0.3.6_aarch64.app.tar.gz"
     }
   }
 }
