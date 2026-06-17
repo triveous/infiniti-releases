@@ -1,11 +1,11 @@
 {
-  "version": "0.3.21",
-  "notes": "**New**\n\n- **Drag images in from Finder** — drag one or more image files onto a note to\n  add them (alongside paste, the `/image` picker, and image URLs). (PRD\n  Addendum 17 §Q6.)\n- **Each image is its own block** — so you can wiki-link, block-reference,\n  collapse, and caption any image; a multi-image drop/paste is a single undo.\n  Tall/portrait images are height-capped so they don't dominate the page. (§Q18.)\n- **Image lightbox is a gallery** — click any image to view it full-resolution,\n  then arrow (← →) through every image in the note. (§Q9.)\n- **Attach screenshots to feedback** — add images (file or paste) to a bug\n  report or suggestion. (PRD Addendum 14 §N2.)",
-  "pub_date": "2026-06-17T06:32:10.373Z",
+  "version": "0.3.22",
+  "notes": "**Under the hood**\n\n- Feedback now routes through a relocated submission endpoint. No behavior\n  change — bug reports and feature requests (and attached screenshots, 0.3.21)\n  work as before. (PRD Addendum 14 §N2.)",
+  "pub_date": "2026-06-17T07:24:08.583Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVUL2tEajlaR09RRWs0SXk1Z2F1V1pBUXJKclM3RW8zcTFxK3owQUVGNDdJcDJzQUpITFBZQm94RHJicERIU3B2SHBqMU54YjlzOEFVUDJ2MDhVOUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjc3OTI0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpWNWxCam81eU9GZ1FrNE9SNlJKelNxVGk2TGpQdWUvQzhnekQvazFPdEY1cWlaWjBrbFFjNUpIbCszUlUvOXpSUytmVHh4NE1ud1lVaFE3MUp6UldBQT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.21/Infiniti_0.3.21_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFlUMEtkdHRmUWNYRUFCdTBLM29FU21FVGRZbjFpWCs2YWdXMk9Ma0NGcytXcUtHVTNzRk8xSHN1eWR1UE5SbDAxc0pON2ZyYmJXTXFhTVJqd3p0amdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjgxMDQ0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpnaEdKNHo4QzhoaGRoZWt6TksvYnJ6UTJoZXEzQjAvNno2Zmp2eGp2aS9SRURpdzF1eHowbVhmcFdydHRkaG1FL3BNeXF2aEJUWlRDVlZET0FKN3hBdz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.22/Infiniti_0.3.22_aarch64.app.tar.gz"
     }
   }
 }
