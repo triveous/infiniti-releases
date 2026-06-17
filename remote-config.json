@@ -1,7 +1,7 @@
 {
-  "_comment": "Infiniti remote config — PRD Addendum 14 §N4.2. SOURCE OF TRUTH lives here; PUBLISH a copy to the PUBLIC infiniti-releases repo (raw URL in src-tauri/src/config.rs::REMOTE_CONFIG_URL) so the app can fetch it unauthenticated. Update = commit the published copy; the app picks it up on next launch / 6h check. The app degrades gracefully (cache, then these-shaped defaults) if it can't fetch.",
+  "_comment": "Infiniti remote config — PRD Addendum 14 §N4.2. SOURCE OF TRUTH lives here; PUBLISH a copy to the PUBLIC infiniti-releases repo (raw URL in apps/desktop/src-tauri/src/config.rs::REMOTE_CONFIG_URL) so the app can fetch it unauthenticated. Update = commit the published copy; the app picks it up on next launch / 6h check. The app degrades gracefully (cache, then these-shaped defaults) if it can't fetch.",
   "schema_version": 1,
-  "updated_at": "2026-06-04T00:00:00Z",
+  "updated_at": "2026-06-17T00:00:00Z",
   "channels": {
     "beta": { "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd", "expires": "2026-06-30T23:59:59Z" },
     "stable": { "passphrase_hash": "", "expires": "2027-06-30T23:59:59Z" }
@@ -14,7 +14,10 @@
   "kill_switches": {
     "graph_view": false,
     "editor_spellcheck": false,
-    "sync": false
+    "sync": false,
+    "images": false,
+    "image_sync": false,
+    "version_history": false
   },
   "config": {
     "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
