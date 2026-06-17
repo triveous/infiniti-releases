@@ -1,11 +1,11 @@
 {
-  "version": "0.3.22",
-  "notes": "**Under the hood**\n\n- Feedback now routes through a relocated submission endpoint. No behavior\n  change — bug reports and feature requests (and attached screenshots, 0.3.21)\n  work as before. (PRD Addendum 14 §N2.)",
-  "pub_date": "2026-06-17T07:24:08.583Z",
+  "version": "0.3.23",
+  "notes": "**New**\n\n- **Sync size limits keep large images on-device** — images over 10 MB, and\n  any image once a vault reaches its plan's storage limit, stay fully usable on\n  the device that has them but don't sync to your other devices. A dismissable\n  Alerts notice tells you when this happens and why. Nothing is ever deleted or\n  lost; everything stays local. (PRD Addendum 17 §Q8.)\n\n**Under the hood**\n\n- The sync server now enforces a per-vault storage cap (2 GB on Standard) at\n  the upload step: an over-cap upload is refused before any bytes move, and the\n  client skips it and surfaces the notice above. The server still never sees\n  image contents — only a blob's size and existence. (PRD Addendum 17 §Q8.3.)\n- Sync can now be turned off per release channel from remote config (not just\n  the global kill switch). When it's off, the Settings → Sync panel is hidden\n  entirely rather than shown non-functional. (PRD Addendum 14 §N4.)",
+  "pub_date": "2026-06-17T13:20:31.692Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFlUMEtkdHRmUWNYRUFCdTBLM29FU21FVGRZbjFpWCs2YWdXMk9Ma0NGcytXcUtHVTNzRk8xSHN1eWR1UE5SbDAxc0pON2ZyYmJXTXFhTVJqd3p0amdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNjgxMDQ0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpnaEdKNHo4QzhoaGRoZWt6TksvYnJ6UTJoZXEzQjAvNno2Zmp2eGp2aS9SRURpdzF1eHowbVhmcFdydHRkaG1FL3BNeXF2aEJUWlRDVlZET0FKN3hBdz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.22/Infiniti_0.3.22_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFpSandUdW5sL2w3ZkovL0RFSWNmd2RlUi95TDNNY1poQm1jQlFUVlFEN2xQY3kzdjZlRFczUjZBdGlXN29mVUxjWTFPNEJmSys3S0x6RjMvb1k3ZXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNzAyNDI2CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp2V29PSnhWcGpoeUlidzRtNGpCNmNzeUdMVlV3REpQZ2pLWUxRbll5NFMveVpNaTN0RUR1Smh3VmliTG51QkpNejU1ZEhhYjBuU0x2c1lZNm9Va3pEQT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.23/Infiniti_0.3.23_aarch64.app.tar.gz"
     }
   }
 }
