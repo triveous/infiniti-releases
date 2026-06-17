@@ -1,11 +1,11 @@
 {
-  "version": "0.3.24",
-  "notes": "**Fixes & polish**\n\n- **Fixed a startup hang / runaway memory on certain notes.** A note whose block\n  hierarchy contained a corrupted loop (a block that was its own ancestor) could\n  send the app into an unbounded loop on launch — pinning the CPU and consuming\n  all available memory before the window ever appeared. The descendant lookup\n  now terminates safely on such data, the corrupted link is repaired\n  automatically on launch, and the app no longer lets a loop be saved in the\n  first place. Affected notes open normally again, with no data lost.",
-  "pub_date": "2026-06-17T15:02:08.059Z",
+  "version": "0.3.25",
+  "notes": "**Fixes & polish**\n\n- **\"What's New\" and the About release notes read cleanly again.** Multi-line\n  notes were breaking mid-sentence and spilling wrapped text into stray\n  paragraphs below the list; wrapped lines now flow as a single paragraph the\n  way they're written.\n\n**Under the hood**\n\n- Hardened the block-hierarchy guards from 0.3.24: the sync path now heals a\n  parent-cycle that arrives over the wire (deterministically, so devices\n  converge), and a database trigger rejects setting a block as its own parent\n  outright — the engine-level backstop beneath the read/write guards.\n  (DATA-INTEGRITY.md.)",
+  "pub_date": "2026-06-17T16:50:04.468Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFdXSVRhOHBPc0k1eTAzYjJxaWdBRi9jY0g3UHV1eHVPQzZ4ajgzSzBQSGltRFpFUHZUeEp2SVppNXRtT2xrL1Awc21pTzJ4VWVNT0JMREl6VVBmcUFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNzA4NTIxCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negovNFVtdVV6VnV1UXlMc0J3N2c3ZmdhQXp1N2NHT29jZlhUaitPNENvczYzL3RKczA3Y3VJb2hTVHpmNGlkbFptRXlhQ0lxYjRvSisyenI2UTlRU0ZDZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.24/Infiniti_0.3.24_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFozdWVyajV5UEd2RkIzK2lXelFRMzB6SnRadE1TWXFMamNGYklDMnNYMDEwTVA5WnY2SlN0UlVUb05LMkNOV1hPYWVJdDZ4KzNBTTNVdFFZcjRFSVFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNzE0OTk5CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpjNUhmT3NKNDVPbHhrd2RudTljczNOWDJ0ZWZtazhOcHcwMmdtR1NlVVFKaisrelpzelhuUWRJT2h1S2ozUndhWUYyWlppNnN2cXhPRDEvMjJzd2lEUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.25/Infiniti_0.3.25_aarch64.app.tar.gz"
     }
   }
 }
