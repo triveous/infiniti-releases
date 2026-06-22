@@ -1,11 +1,11 @@
 {
-  "version": "0.3.33",
-  "notes": "A selection fix release.\n\n**Fixes & polish**\n\n- **Selecting text across a tag or link no longer cancels the selection.** When\n  you shift-select and your selection crosses a `#tag`, `[[link]]`, or block\n  reference, it now keeps extending instead of collapsing to just that item.\n  (Shift-clicking a link from a plain caret still opens it in the right sidebar,\n  with no stray highlight — that behavior is unchanged.)\n\n**Under the hood**\n\n- The shift-click→sidebar selection-suppression (added in 0.3.32) now fires only\n  on a fresh shift-click from a collapsed caret; while a selection is being\n  extended it stays out of the way, so the text selection grows across inline\n  atoms normally.",
-  "pub_date": "2026-06-22T01:35:23.569Z",
+  "version": "0.3.34",
+  "notes": "A selection fix release.\n\n**Fixes & polish**\n\n- **Selecting text across a tag, link, or block reference now stays\n  highlighted.** A text selection that crossed a `#tag`, `[[link]]`, or `((ref))`\n  used to lose its highlight entirely — it looked like the selection had\n  collapsed to just that item. The full selection band now paints across the\n  whole range. (Selecting *just* a chip still shows the ring with no line-wide\n  highlight; shift-clicking a link still opens it in the right sidebar.)\n\n**Under the hood**\n\n- The atom-selection band-suppression (added in 0.3.32) keyed off\n  `:has(.ProseMirror-selectednode)`, but ProseMirror marks any inline atom\n  *contained in a text range* with that class — so a multi-block selection that\n  merely included a tag matched and hid the whole band. It now keys off a\n  `.pm-atom-selected` class set only when the selection is exactly one inline\n  atom (the case that balloons in WKWebView).",
+  "pub_date": "2026-06-22T03:03:02.428Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFRpYjVJQTVJZ2N0dVk4Qm1OU0xzVTFEdG5OZGM2bW5YWW04STk1YUlnMElBZE9HMjhlMk5mMFNEQkhmd3dIL3EyR2F6bWw4WE9GdzJOT3gyc0dDZUFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDkyMTE5CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpFcUlNR3ZmTVdCTTV0ZGU2b1pWcVVwYW9LUjQyUVNVVU5uWnpSb0tLZC9ONkkvS1Q4V1ltd1JPQUdzWGYxVEtBemRMY1FneDhwdktUT3RWd0c0Q2tBQT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.33/Infiniti_0.3.33_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFIrbGJ0MGJyV0g2ZTdsVnMvajQ3azY4TEpMWVNPN3RJQm8yOXF6cDhkSzMrdEx1MEEzMTlWM2I0YkpVaU9yd3ZPSFU0TVArSGs2VU82LzcydDhYY3dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMDk3Mzc2CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpCSW51K08rU1YrUk56UHcwMkdpNno5N2JWcHlMb0NXWmZndU00Q1BSZGFmY05uUkJZOUozeCs0R0dFUmVndWRXaDhBMUZiZmV1V1hDTFBNemxoazlBZz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.34/Infiniti_0.3.34_aarch64.app.tar.gz"
     }
   }
 }
