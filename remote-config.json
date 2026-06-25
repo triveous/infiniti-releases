@@ -1,17 +1,48 @@
 {
   "_comment": "Infiniti remote config — PRD Addendum 14 §N4.2. SOURCE OF TRUTH lives here; PUBLISH a copy to the PUBLIC infiniti-releases repo (raw URL in apps/desktop/src-tauri/src/config.rs::REMOTE_CONFIG_URL) so the app can fetch it unauthenticated. Update = commit the published copy; the app picks it up on next launch / 6h check. The app degrades gracefully (cache, then these-shaped defaults) if it can't fetch.",
   "schema_version": 1,
-  "updated_at": "2026-06-24T12:00:00Z",
+  "updated_at": "2026-06-25T11:25:00Z",
   "channels": {
-    "beta": { "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd", "expires": "2026-06-30T23:59:59Z" },
-    "stable": { "passphrase_hash": "", "expires": "2027-06-30T23:59:59Z" }
+    "beta": {
+      "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd",
+      "expires": "2026-06-30T23:59:59Z"
+    },
+    "stable": {
+      "passphrase_hash": "",
+      "expires": "2027-06-30T23:59:59Z"
+    }
   },
   "feature_flags": {
-    "graph_view": { "dev": true, "beta": false, "stable": false },
-    "backlinks_panel": { "dev": true, "beta": true, "stable": false },
-    "debug_logging": { "dev": true, "beta": false, "stable": false },
-    "sync": { "dev": true, "beta": false, "stable": false },
-    "zoom": { "dev": true, "beta": false, "stable": false }
+    "graph_view": {
+      "dev": true,
+      "beta": false,
+      "stable": false
+    },
+    "backlinks_panel": {
+      "dev": true,
+      "beta": true,
+      "stable": false
+    },
+    "debug_logging": {
+      "dev": true,
+      "beta": false,
+      "stable": false
+    },
+    "sync": {
+      "dev": true,
+      "beta": false,
+      "stable": false
+    },
+    "zoom": {
+      "dev": true,
+      "beta": false,
+      "stable": false
+    },
+    "overlay_mode": {
+      "dev": true,
+      "beta": false,
+      "stable": false
+    }
   },
   "kill_switches": {
     "graph_view": false,
@@ -22,7 +53,11 @@
     "version_history": false
   },
   "config": {
-    "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
+    "log_level": {
+      "dev": "debug",
+      "beta": "info",
+      "stable": "info"
+    },
     "update_check_interval_hours": 6,
     "min_supported_version": "0.2.0"
   }
