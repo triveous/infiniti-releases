@@ -1,11 +1,11 @@
 {
-  "version": "0.3.38",
-  "notes": "Resizable sidebars (PRD Addendum 21 rev2 §U4.5).\n\n**New**\n\n- **Drag to resize either sidebar.** Hover the edge between a sidebar and the\n  editor — the seam turns into a resize handle (no permanent knob). Drag to set\n  the left sidebar or the References panel to the width you want; the editor\n  reflows to match. Hard stops at sensible limits, and there's no drag-to-close\n  (use the toggles for that). Your chosen widths are remembered between launches.\n\n**Under the hood**\n\n- The References panel can be widened until the editor would hit its minimum,\n  then stops; the left sidebar resizes within a deliberately tight band. The\n  dock/overlay logic now uses your *resized* widths, so a wider panel flips to an\n  overlay a little sooner and a narrower one docks at a smaller window.",
-  "pub_date": "2026-06-25T14:45:09.294Z",
+  "version": "0.3.39",
+  "notes": "A data-loss fix for zoomed editing, plus a sidebar default tweak.\n\n**Fixes & polish**\n\n- **Edits made while zoomed into a heading no longer get lost.** Editing inside\n  a focused heading and then zooming a level deeper could silently drop that\n  section's blocks. The focused-view save now never leaves a block pointing at a\n  removed parent, and the storage layer refuses to act on such a reference — so\n  the rest of the note can't be cascade-deleted (PRD Addendum 20 §T3; the save\n  merge + a write-boundary guard, per DATA-INTEGRITY R2).\n- **The References panel opens at its narrower default again** (back to 360px;\n  it had briefly defaulted to 420). You can still drag it as wide as you like —\n  and your width is remembered (PRD Addendum 21 §U3/§U4.5).",
+  "pub_date": "2026-06-26T05:52:45.742Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFJGbDlTbVYwV0N2Zi9EbTg0RkxzcnltQlU5Zyt5SG96M2g3K2FyMUxuV0krMEFRc1RncVkyOFFXc0RXeDJKQ1BwbHhwSktLVUNLaGFVZExkT2t0aEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzk4NzA1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpYL0g2bVZEOTI1R2VTbHZYc1c3d04vSFMyaXJmZlREMmcwK3FZcFlIbGRrM1pQZHVzK2RVV0UrRitmeW9qdVZiL0IrWXBNY1dVemorb0h4RXZNWmlBdz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.38/Infiniti_0.3.38_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFRacjNWTm55MFFyYUI3OGZnTTBXM2xLM1VxbmxPSE1MY2tRbHc3eHNUdFhMbkdTUW5FeWhPSHJEMlBSKzhNS0FCbncyOXpsUkw0eDBWazhJbStmSncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDUzMTYwCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpZc3BkcE9UenU2Z2NXdzljTnJZV2s4Z1RYcXFnNjdYTWNxRGtIQmpYNTA0Q1RwODIyekh4ZzVnWG1DOVFoMkdpTkJyMFU5TWZ1b29pQjQ4ekRrZ1FEdz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.39/Infiniti_0.3.39_aarch64.app.tar.gz"
     }
   }
 }
