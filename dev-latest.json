@@ -1,11 +1,11 @@
 {
-  "version": "0.3.39",
-  "notes": "A data-loss fix for zoomed editing, plus a sidebar default tweak.\n\n**Fixes & polish**\n\n- **Edits made while zoomed into a heading no longer get lost.** Editing inside\n  a focused heading and then zooming a level deeper could silently drop that\n  section's blocks. The focused-view save now never leaves a block pointing at a\n  removed parent, and the storage layer refuses to act on such a reference — so\n  the rest of the note can't be cascade-deleted (PRD Addendum 20 §T3; the save\n  merge + a write-boundary guard, per DATA-INTEGRITY R2).\n- **The References panel opens at its narrower default again** (back to 360px;\n  it had briefly defaulted to 420). You can still drag it as wide as you like —\n  and your width is remembered (PRD Addendum 21 §U3/§U4.5).",
-  "pub_date": "2026-06-26T05:52:45.742Z",
+  "version": "0.3.40",
+  "notes": "**Fixes & polish**\n\n- **Switching back to the app keeps your cursor where you were typing.** After\n  alt-tabbing away mid-edit and back, the caret could jump to the top of the\n  note and the editor could lose focus (so you had to click before typing). The\n  cursor position is now preserved across the background refresh that fires when\n  a save lands while the window is in the background, and focus returns to the\n  editor when you come back.",
+  "pub_date": "2026-06-26T07:38:22.163Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFRacjNWTm55MFFyYUI3OGZnTTBXM2xLM1VxbmxPSE1MY2tRbHc3eHNUdFhMbkdTUW5FeWhPSHJEMlBSKzhNS0FCbncyOXpsUkw0eDBWazhJbStmSncwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDUzMTYwCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpZc3BkcE9UenU2Z2NXdzljTnJZV2s4Z1RYcXFnNjdYTWNxRGtIQmpYNTA0Q1RwODIyekh4ZzVnWG1DOVFoMkdpTkJyMFU5TWZ1b29pQjQ4ekRrZ1FEdz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.39/Infiniti_0.3.39_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGRTNU9wRkdteWVUYndqbjhUdWNaZXJXTThLNzltSDZ6Z1NTVVFMVTRITTlwdzg4dUNaYnI0VDJhYTQzd1oyb25RZVhKWFc4UGd3ampkN0s4VEpIcGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDU5NDk4CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp3cDBia1Bpb2FUS1plMWxCQUNRaEUxSGh5VGZiZmpOS0VRTE1DcS8yaG1yRmdCM2xRVjNtYU1KbUY0eFRlZXhNa01jTmpOMzY3aERkeXFySDRvTHBEUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.40/Infiniti_0.3.40_aarch64.app.tar.gz"
     }
   }
 }
