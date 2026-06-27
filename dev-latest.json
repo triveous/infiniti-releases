@@ -1,11 +1,11 @@
 {
-  "version": "0.3.40",
-  "notes": "**Fixes & polish**\n\n- **Switching back to the app keeps your cursor where you were typing.** After\n  alt-tabbing away mid-edit and back, the caret could jump to the top of the\n  note and the editor could lose focus (so you had to click before typing). The\n  cursor position is now preserved across the background refresh that fires when\n  a save lands while the window is in the background, and focus returns to the\n  editor when you come back.",
-  "pub_date": "2026-06-26T07:38:22.163Z",
+  "version": "0.3.41",
+  "notes": "A diagnostic build to pin down the zoom save issue.\n\n**Under the hood**\n\n- Adds temporary local-only diagnostic logging around the focused-view (zoom)\n  save path so the exact point where an edit fails to persist can be captured\n  from a single reproduction (UUIDs and counts only — never note content, per the\n  Privacy Invariant). No behavior change; the logging is removed once the issue\n  is fixed.",
+  "pub_date": "2026-06-27T05:26:52.518Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGRTNU9wRkdteWVUYndqbjhUdWNaZXJXTThLNzltSDZ6Z1NTVVFMVTRITTlwdzg4dUNaYnI0VDJhYTQzd1oyb25RZVhKWFc4UGd3ampkN0s4VEpIcGc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNDU5NDk4CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp3cDBia1Bpb2FUS1plMWxCQUNRaEUxSGh5VGZiZmpOS0VRTE1DcS8yaG1yRmdCM2xRVjNtYU1KbUY0eFRlZXhNa01jTmpOMzY3aERkeXFySDRvTHBEUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.40/Infiniti_0.3.40_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFYzdTVsRXlsTHBHbWUvcGYrUmViOXJNU3pESk9qOHE2VnA1WEkvRUhQdjF5V2ZtSFU5cnJUckdESWRiZXNwNTNEZWhwUnVGK0djSzQwbFdnQjlGa0EwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNTM4MDA3CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpKVDY4bFkzR25kejBUZG5ZclBlVHpEa2JzTlhFR3FldGovK1RCeFFDV1hhYkU3c3ora3p4REQ0SW91VmEwMkgwMVF2MERDdlRudXI3dm9QZFkyWnFCdz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.41/Infiniti_0.3.41_aarch64.app.tar.gz"
     }
   }
 }
