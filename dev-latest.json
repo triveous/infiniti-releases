@@ -1,11 +1,11 @@
 {
-  "version": "0.3.42",
-  "notes": "Fixes the zoom data-loss bug (PRD Addendum 20 §T3).\n\n**Fixes & polish**\n\n- **Zoom: your edits are no longer lost.** Zooming into a block from the Journal\n  via its gutter marker was saving your changes into the wrong note, so they\n  vanished on zoom-out. The marker now targets the block's own note, so edits in\n  a focused view persist correctly.\n\n**Under the hood**\n\n- Keeps the temporary, local-only zoom diagnostics for one more build to confirm\n  the fix in the wild; they'll be removed next.",
-  "pub_date": "2026-06-28T12:53:33.204Z",
+  "version": "0.3.43",
+  "notes": "**Fixes & polish**\n\n- **Window restores maximized.** On macOS the app could reopen as a small/narrow\n  window even when you'd closed it maximized; it now fills the screen again\n  (PRD Addendum 21 §U11).\n\n**Under the hood**\n\n- Removes the temporary zoom save diagnostics now that the zoom data-loss fix is\n  confirmed.",
+  "pub_date": "2026-06-28T14:08:29.997Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVMOHV4SHRlQ2FFT0htR3UyTXJoL2lXZUVnbFBkQUhPUnplM2xyZ1F1d0I2eUdnM2h5aXhSQ1pKb2pLbDNueHZvaVQ5NUFYL0JXcnZEbitlK1FIUHdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNjUxMjA4CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpHUlZiSzU4b3EyNEJZdUNPak5mM05jUWRzaldvT0o0UFBjdk5UbFluSVB2RURTSkh6UWtKMXI5blhQYTRiYWFxaFVVdmxzdDd3cVlGckc4aVJmKzVCUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.42/Infiniti_0.3.42_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFdqZjU4WENTcTBacXFNRzJGcGhidTI5bW53bG1RZGRwbEM4QVk2TUQzZm5EMDdDWmY2TVZaOHNIb0hHUXFQSFJIcmtPVms1YWpYa1A0UVhXNHhJamdZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNjU1NzA0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negorV29SUFZ1K1gxVENGWEh3U1p3QVVRMkFuNEJIZmQ0ZDc5YTRmTXNseG9zRTg0b0pWamQ3UWdrSnpOeHJ6cUtqK3lHbzFwaHpEQmg4dVhTQlBSRUhEUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.3.43/Infiniti_0.3.43_aarch64.app.tar.gz"
     }
   }
 }
