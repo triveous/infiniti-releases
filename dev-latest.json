@@ -1,11 +1,11 @@
 {
-  "version": "0.4.3",
-  "notes": "Note page cleanup — removes legacy header chrome and adds the empty-note\n\"who links here\" landing (Note Build Spec v1).\n\n**New**\n\n- An **empty note that's already linked from elsewhere** now opens straight to\n  its **\"Mentioned in N notes\"** — you land on who points at it, ready to write.\n  Start typing and it returns to a normal note. A brand-new empty note with no\n  links shows a calm writing prompt instead.\n\n**Fixes & polish**\n\n- The note header is simplified: a single **Pin** plus a **⋯ menu** (Move to\n  folder · Open in new tab · Copy link · Archive · Delete). The old duplicate\n  **star** and the inline **\"Folder ▾ · Archive · Move to Trash\"** row are gone;\n  the folder now shows in the line under the title.\n- That subline now reads **Edited … · in {Folder} · {N} mentions**, and the\n  mention count is a tidy chip that jumps to the mentions (no more underlined link).\n- The journal drops its redundant per-day subline; each day's mentions sit\n  directly under the day with no extra divider.",
-  "pub_date": "2026-06-29T05:47:00.112Z",
+  "version": "0.4.4",
+  "notes": "**Fixes & polish**\n\n- Fixed the empty-note **\"who links here\" landing**: an empty note that's linked\n  from elsewhere now shows its \"Mentioned in N notes\" right under the title, as\n  intended — previously it was pushed far below the empty editor and looked\n  missing.",
+  "pub_date": "2026-06-29T07:07:30.995Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGRwdG9nY0J3aWlDTUo5S21UZXdqRS8vam85MW5BNDcwdzFPbkk2L2xYaFdCT1k3azhjYWgvM2xma2x2NXE3MGNobFBtcTEwTXU0VXBzMzlVNnBEUXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzEyMDE1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp3SXBRNW0vK2xtQjFITURRS1ZrQXFNRFB0aUtMSWsvZTNQalBNWGRWM2FBUk1ocDBMWkpKbXBlU0djd3VlWDRBd2s5UFNsZGVkWXJJZnk5TkNqN29BZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.3/Infiniti_0.4.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVpSHFCaDc1UFBTYWREV0xtdXM5Uzg5alFDNmg4NlQxZ0NTUXhVcWNwT1BpenphRDhhOU91dXJiTFpYUUg1WVdrWVVEQnlQbnFUZ25ieDRuWVNnVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzE2ODQ0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negovdmlwU25Yd0pKUG9nU2RNcWZPczVxYVp1VjhIcWRhQVRPQ0Y1UWduMHBiZUtDK2pRY2o3R1pVYTYzS1h4VWU1blYyWS9YaVdnTGJYbmlEMmtHcWlEUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.4/Infiniti_0.4.4_aarch64.app.tar.gz"
     }
   }
 }
