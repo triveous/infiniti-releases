@@ -1,11 +1,11 @@
 {
-  "version": "0.4.8",
-  "notes": "**Fixes & polish**\n\n- The **collapse/expand sidebar button and the traffic lights now line up** with\n  the tabs and back/forward — no more floating slightly high.\n- Fixed the **stray divider line under the active tab** — the open tab now merges\n  cleanly into the page.\n- In a **very narrow window**, back/forward and the new-tab ＋ now tuck away so the\n  one tab and the toggles still fit.",
-  "pub_date": "2026-06-29T14:59:45.378Z",
+  "version": "0.4.9",
+  "notes": "Browse rebuild — All Notes, Pinned, Folders, Tags, Archive and Trash are now one\nconsistent list surface (Browse Build Spec).\n\n**New**\n\n- **Archive and Trash now use the same list view** as All Notes — same header,\n  sort and filtering. Trash shows when each note was deleted with hover **Restore**\n  / **Delete forever**, plus **Empty Trash**; Archive has unarchive.\n- **Pinned** has its own view with drag-to-reorder; opening a **folder** shows its\n  notes with an \"Inside folder\" banner.\n\n**Fixes & polish**\n\n- Show/hide columns, a single open menu at a time (Sort / Filter / Columns),\n  clearer empty states for every list, and the table scrolls sideways on a narrow\n  window instead of breaking.\n- Consistent spacing, hairline rows and 4px radius across all list screens.",
+  "pub_date": "2026-06-29T16:21:41.482Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVlUVpXb01Bc3B5VUE1T1FSYjdySG05dnRBYVcrd1drZEZ2QytLTkxLU0xwZTI1eFRWNGNTUWxsQk9ONFU4YTBEWVByWkhTSlZZNXJjclBYZXdmU3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzQ1MTgwCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpNZVFJM3pkVkRRemdFQVVZZzREOFNROVlESUNzUFlXWmtYaFhKaTdkdm9ycFlZRmpIajJaaTRTT2xwMmRyai8xNkZiTldqZjV6MGxCYVlDM0xSYkRDZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.8/Infiniti_0.4.8_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFNUMkg2ZjRwdEpTLzNsdmJJUEdVTG9jU2xQM2pHelBaUklDblpmSWVZa0xNNHQ2UG9LYU14MkljQjBFa3BHcEtoUCtmOFdrZWF3TVpYcmZIM3NXNmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzUwMDg3CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpmUFQwaEUwNHc4RlJGZ29aSEtUZFIxRTc5dW9TamtVY1JzdENUeHY1VGg1MTN2WGpqYmVuam11cFZFL0ZVNXRTTlNzK05BN2V5a0tNMWtwUG5UbGdBUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.9/Infiniti_0.4.9_aarch64.app.tar.gz"
     }
   }
 }
