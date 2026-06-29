@@ -1,11 +1,11 @@
 {
-  "version": "0.4.9",
-  "notes": "Browse rebuild — All Notes, Pinned, Folders, Tags, Archive and Trash are now one\nconsistent list surface (Browse Build Spec).\n\n**New**\n\n- **Archive and Trash now use the same list view** as All Notes — same header,\n  sort and filtering. Trash shows when each note was deleted with hover **Restore**\n  / **Delete forever**, plus **Empty Trash**; Archive has unarchive.\n- **Pinned** has its own view with drag-to-reorder; opening a **folder** shows its\n  notes with an \"Inside folder\" banner.\n\n**Fixes & polish**\n\n- Show/hide columns, a single open menu at a time (Sort / Filter / Columns),\n  clearer empty states for every list, and the table scrolls sideways on a narrow\n  window instead of breaking.\n- Consistent spacing, hairline rows and 4px radius across all list screens.",
-  "pub_date": "2026-06-29T16:21:41.482Z",
+  "version": "0.4.10",
+  "notes": "**Fixes & polish**\n\n- Fixed **column alignment** in the list views — the Mentions/Updated headers now\n  line up with their values, and adding columns scrolls sideways instead of\n  cramming or overlapping dates.\n- **All Notes no longer has a per-row delete** — deleting is via Trash.\n- **All Tags** now shows the Updated date; **Trash** no longer wraps the deleted\n  date and keeps its Restore/Delete column aligned.\n- The **Filter menu** shows the right sections (Has mentions · Edited this week ·\n  Folders · Tags) with proper checkboxes; slightly larger text in the Sort, Filter\n  and Columns menus.",
+  "pub_date": "2026-06-29T17:25:19.509Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFNUMkg2ZjRwdEpTLzNsdmJJUEdVTG9jU2xQM2pHelBaUklDblpmSWVZa0xNNHQ2UG9LYU14MkljQjBFa3BHcEtoUCtmOFdrZWF3TVpYcmZIM3NXNmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzUwMDg3CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpmUFQwaEUwNHc4RlJGZ29aSEtUZFIxRTc5dW9TamtVY1JzdENUeHY1VGg1MTN2WGpqYmVuam11cFZFL0ZVNXRTTlNzK05BN2V5a0tNMWtwUG5UbGdBUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.9/Infiniti_0.4.9_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGJyeW1NVUk2UXFoYWcvM3lSTVFzYzNrdGpXMUZlR3NkRHNYVnRwSU0xUGI2RE50RW5nbGc2c0V0dTJzTlZvY0pUVmFsaTM4bWxDamhvbEk3M2dYMkFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzUzOTE0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpaQkJXODZVY0sxWThiTWkwMHZHMWxlZlJpVm1mQVB2K1VJYUk2RGRsRjcxVHp6STJvcG5XcGFzcVNYZWdrV1RDa3l1YzNYYSsydjZDenlWMTJOb0JBdz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.10/Infiniti_0.4.10_aarch64.app.tar.gz"
     }
   }
 }
