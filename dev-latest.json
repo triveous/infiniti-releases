@@ -1,11 +1,11 @@
 {
-  "version": "0.4.2",
-  "notes": "Home page rebuild — fixes the cramped, mis-scaled Home (Home Build Spec v1).\n\n**Fixes & polish**\n\n- **Home now uses the full width of the window** instead of being squeezed into\n  the narrow note-reading column, so the two-column layout (notes on the left,\n  calendar on the right) finally has room to breathe.\n- The **month calendar no longer clips** — every day of the week, including\n  Sunday, is always fully visible.\n- Home **reflows cleanly as the window narrows**: two columns → a single column\n  with a compact week strip under the greeting → progressively tighter spacing,\n  with the recent-note snippets dropping before anything overflows.\n- The **greeting no longer wraps to two lines**, and the recent list never\n  scrolls sideways.\n- Pinned notes are a tidy two-up card grid; the \"Pick up where you left off\"\n  card, the calendar, and the today's-journal card all match the design.",
-  "pub_date": "2026-06-29T03:46:38.097Z",
+  "version": "0.4.3",
+  "notes": "Note page cleanup — removes legacy header chrome and adds the empty-note\n\"who links here\" landing (Note Build Spec v1).\n\n**New**\n\n- An **empty note that's already linked from elsewhere** now opens straight to\n  its **\"Mentioned in N notes\"** — you land on who points at it, ready to write.\n  Start typing and it returns to a normal note. A brand-new empty note with no\n  links shows a calm writing prompt instead.\n\n**Fixes & polish**\n\n- The note header is simplified: a single **Pin** plus a **⋯ menu** (Move to\n  folder · Open in new tab · Copy link · Archive · Delete). The old duplicate\n  **star** and the inline **\"Folder ▾ · Archive · Move to Trash\"** row are gone;\n  the folder now shows in the line under the title.\n- That subline now reads **Edited … · in {Folder} · {N} mentions**, and the\n  mention count is a tidy chip that jumps to the mentions (no more underlined link).\n- The journal drops its redundant per-day subline; each day's mentions sit\n  directly under the day with no extra divider.",
+  "pub_date": "2026-06-29T05:47:00.112Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGF2ZzZ1VVBNaUI2Nmdkcnkyb0dNc0p2M1ZWRC9CZWJJNmhxb2Yvbkd4TGp2OXR5YU9LSmM2d3ZJbTNVb0ZYV0FaTFlFZzQ5SDNqQ3dYMDVRRkxiUHdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzA0NzkzCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negppTEg4azROcit1SHpSamJOanphcTdlbXZjQzJsNkxLOVNTb2hOV28vVnBETTYydWhlRTNoTkNEa1VCeGVSeFlPazB2Tkp2UW4ycVNLU1JnWlJ6STJDQT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.2/Infiniti_0.4.2_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGRwdG9nY0J3aWlDTUo5S21UZXdqRS8vam85MW5BNDcwdzFPbkk2L2xYaFdCT1k3azhjYWgvM2xma2x2NXE3MGNobFBtcTEwTXU0VXBzMzlVNnBEUXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzEyMDE1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp3SXBRNW0vK2xtQjFITURRS1ZrQXFNRFB0aUtMSWsvZTNQalBNWGRWM2FBUk1ocDBMWkpKbXBlU0djd3VlWDRBd2s5UFNsZGVkWXJJZnk5TkNqN29BZz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.3/Infiniti_0.4.3_aarch64.app.tar.gz"
     }
   }
 }
