@@ -1,11 +1,11 @@
 {
-  "version": "0.4.6",
-  "notes": "**Fixes & polish**\n\n- Fixed the **empty gap at the top of the left sidebar** and the collapse button\n  that sat too low — the account row now starts right under the top band, and the\n  traffic lights line up with the collapse/expand toggle.\n- Bumped the **left sidebar text up by 1px** so it reads at the intended size.",
-  "pub_date": "2026-06-29T09:38:48.798Z",
+  "version": "0.4.7",
+  "notes": "Tab bar rebuild — browser-style tabs that merge into the page (Tab-Bar spec v0.5).\n\n**New**\n\n- The **active tab now merges into the content** below it — no divider line — so\n  the open note reads as one surface, like a browser tab. Inactive tabs keep a\n  subtle separating line.\n\n**Fixes & polish**\n\n- Tabs, back/forward, the new-tab ＋, the calendar and the references toggle are\n  now all aligned on a single line; tidier rounded tabs with an always-visible\n  close ×, and a cleaner right-side cluster (calendar · divider · references).\n- Slightly larger tab labels, on the same +1 text scale as the sidebar.",
+  "pub_date": "2026-06-29T14:01:04.834Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGUyYzFLdEZRVVhZSkFFUktjdXQzK1Y5ampkbFR6OWpNUEhDT2wwN1dicUxaR0JPb1o3OVI2TWx5ZDFkc2FlV3hwWFRxbW1IcnZtdW5aamRsSVhzeHc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzI1OTIzCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpGVXMzZ1FjaGFHckxxQTU0U2VJY3ZTdnFTOFJ6cjBZandHczE2SE9ob20wL0Y2VTdCVnJOREdFbG1USWFMeklrd0Y2NUpBQklmMVo4QWErbnNXem1CZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.6/Infiniti_0.4.6_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGJHbGZQSXJJbGQ1Vm9lakhwTEp3T0FRbHk4dW1qWVBJNHlrMzFaU2F0UXVZWmI5OCtZMVczbHY0cWdRZGpUY0Y1ZDNzcEovNTBVeks2VENHK2JERmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzQxNjU5CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpycGFZUFVLY0ZsSVB5Q2JoZU5xK1ptQlFOTVJLK1NCb1MrZHRZYngwNkQyd1pPMmpwSThuUTdBb0RWZnFnNDBEZ2l4aGFCaFhzUm9XaWUra3pWVFlBQT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.7/Infiniti_0.4.7_aarch64.app.tar.gz"
     }
   }
 }
