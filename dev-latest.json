@@ -1,11 +1,11 @@
 {
-  "version": "0.4.4",
-  "notes": "**Fixes & polish**\n\n- Fixed the empty-note **\"who links here\" landing**: an empty note that's linked\n  from elsewhere now shows its \"Mentioned in N notes\" right under the title, as\n  intended — previously it was pushed far below the empty editor and looked\n  missing.",
-  "pub_date": "2026-06-29T07:07:30.995Z",
+  "version": "0.4.5",
+  "notes": "Left sidebar rebuild — a cleaner, calmer navigation rail (Left-Sidebar spec v0.4).\n\n**New**\n\n- The sidebar is reorganised top-to-bottom: account · search · **New note** (now\n  right above Home) · Home · Journal · All notes · **Pinned** · **Recent** ·\n  **Organise** (All folders · All tags · Archive · Trash) · **Settings** pinned\n  to the bottom.\n\n**Fixes & polish**\n\n- New note is its own row above Home with a ⌘N hint; the count next to All notes\n  now abbreviates large numbers (e.g. 2.4k).\n- Pinned and Recent tuck away when empty; Organise always shows its four items.\n- Import and Export markdown are no longer in the sidebar — they live in the File\n  menu (and Export in ⌘K), keeping the rail focused on navigation.\n- Tidier spacing, icons, and group headers throughout, matching the design.",
+  "pub_date": "2026-06-29T08:07:58.563Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVpSHFCaDc1UFBTYWREV0xtdXM5Uzg5alFDNmg4NlQxZ0NTUXhVcWNwT1BpenphRDhhOU91dXJiTFpYUUg1WVdrWVVEQnlQbnFUZ25ieDRuWVNnVEE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzE2ODQ0CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negovdmlwU25Yd0pKUG9nU2RNcWZPczVxYVp1VjhIcWRhQVRPQ0Y1UWduMHBiZUtDK2pRY2o3R1pVYTYzS1h4VWU1blYyWS9YaVdnTGJYbmlEMmtHcWlEUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.4/Infiniti_0.4.4_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFpnZmZBNDZ2RlVzMUsvc25SOFY5eU5yQjRwUlVISzRCZXlKTTVCM2U0Wm1Gc1cwaU9ickMvNnZOL1NGbFhibzhSNWo3QzMzWjlhV0pKc0tMZDl5MXdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzIwNDcyCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negoybU00ZTlnd3VrNnZoNyt3ZHRkbjJRME9uMjIwL1FEL1VnTW1nWGcvQWpKZ2hrRjhKZkRBUExQSm12dS8wb1k4TytwVUhzdGhIdmpLeUdsN2NkU25CUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.5/Infiniti_0.4.5_aarch64.app.tar.gz"
     }
   }
 }
