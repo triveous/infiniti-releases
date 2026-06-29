@@ -5,7 +5,7 @@
   "channels": {
     "beta": {
       "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd",
-      "expires": "2026-06-30T23:59:59Z"
+      "expires": "2026-08-31T23:59:59Z"
     },
     "stable": {
       "passphrase_hash": "",
