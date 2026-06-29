@@ -1,11 +1,11 @@
 {
-  "version": "0.4.11",
-  "notes": "**Fixes & polish**\n\n- The **Created/Updated dates show in full** now (\"Jun 29, 2026\") instead of being\n  cut off.\n- The **mention counts line up under the Mentions header** (each count now carries\n  the same link icon as the header).",
-  "pub_date": "2026-06-29T18:12:56.862Z",
+  "version": "0.4.12",
+  "notes": "**New**\n\n- **\"Mentioned in N notes\" is one consistent surface everywhere now.** The bottom\n  of a note, tag pages, the references sidebar, a zoomed-in block, and the journal\n  all show the same mention cards with the same look and controls. (Mentions Build\n  Spec v0.2.)\n- **Choose how mentions open.** Settings → Editor → Mentions lets you pick\n  *Collapsed everywhere* (the new default), *Collapsed but journals open*, or\n  *Expanded everywhere* — also searchable in ⌘K.\n- **References sidebar cards gained hover actions** — pin a card to the top, open\n  it, or dismiss it. (The sidebar stays read-only while it's an overlay; widen the\n  window to edit.)\n\n**Fixes & polish**\n\n- Mention cards now have a consistent bordered look, a larger disclosure caret,\n  vertically-centred titles, and a sort/filter row whose buttons line up at one\n  height.\n- Sorting mentions (Recent · Oldest · Note A–Z · Most-linked) and filtering by\n  source folder now use clean popovers instead of a dropdown.\n- A mention from a nested block no longer shows twice — the parent's card already\n  contains it (ancestor-wins).\n\n**Under the hood**\n\n- Unified the two separate backlinks implementations into a single\n  MentionsSection + ReferenceCard driven by a per-mount config; removed the\n  standalone BlockBacklinks. Mention children still render as editable inline\n  editors with their real block types (bullets, todos, headings, paragraphs).",
+  "pub_date": "2026-06-29T23:02:49.064Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFYzRk42b1ErV1FjaCs2cDFpK2lGVFd0UmVNWktEWmJWN3UwcktUVXhZdW8xc3BXNXFBdzZXRGtySGVsTkVGcVFrUW93bndnWDZzOXJweGdTSlRYWGdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzU2NzcxCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpYWlZBdVRtS200N2Z0cVNuSDd0Wkx6SVpyRVloTGtiNWMrWkJ0aHRHLzFobmpoTDc3cUk3Z0pSNGJKVktZYndZYVV6R3lsR3h6RDQ1eENTeHZFSzdCZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.11/Infiniti_0.4.11_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFhNWnE5Qk9uTlJlQXB2eERhMlhTQ3RMVVJZM05zNHdET21jZXhwUmNJR3Z2UEZzU0tEdm03RFp0b2xJZnZqMTlwVEZuQVdaTE9QcW1ZWXB5SlFSZGdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyNzc0MTYzCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negppRUhMQnltUWdVakV1Qm5FaXhXK1Q0Y0g3Uk1RUCtUdzZiZU8rY3dzS3IrTVdSRjMrRGFhbXNQckxIZjhWTitUVzl2QlhnanBxSVJsSlFhYU1KZGVDUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.4.12/Infiniti_0.4.12_aarch64.app.tar.gz"
     }
   }
 }
