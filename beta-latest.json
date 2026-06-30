@@ -1,11 +1,11 @@
 {
-  "version": "0.3.34",
-  "notes": "A selection fix release.\n\n**Fixes & polish**\n\n- **Selecting text across a tag, link, or block reference now stays\n  highlighted.** A text selection that crossed a `#tag`, `[[link]]`, or `((ref))`\n  used to lose its highlight entirely — it looked like the selection had\n  collapsed to just that item. The full selection band now paints across the\n  whole range. (Selecting *just* a chip still shows the ring with no line-wide\n  highlight; shift-clicking a link still opens it in the right sidebar.)\n\n**Under the hood**\n\n- The atom-selection band-suppression (added in 0.3.32) keyed off\n  `:has(.ProseMirror-selectednode)`, but ProseMirror marks any inline atom\n  *contained in a text range* with that class — so a multi-block selection that\n  merely included a tag matched and hid the whole band. It now keys off a\n  `.pm-atom-selected` class set only when the selection is exactly one inline\n  atom (the case that balloons in WKWebView).",
-  "pub_date": "2026-06-22T06:33:52.714Z",
+  "version": "0.4.14",
+  "notes": "**Fixes & polish**\n\n- Mentions now use **one consistent font** (no more monospace for the controls,\n  counts, dates, or breadcrumbs), and the count in \"Mentioned in **N** notes\" matches\n  the label's weight — only its colour stands out.\n- The **divider above mentions is consistent** — present on every note, including\n  empty ones (it used to vanish when the note had no content).\n- **Empty notes lead with their mentions** and, as you type, the section now sits\n  **right under your content** instead of being pushed a full screen down.\n- In a **narrow window or the references sidebar**, the \"Mentioned in N notes\" header\n  now truncates gracefully with its controls as icons, instead of overflowing.",
+  "pub_date": "2026-06-30T14:53:22.884Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFVKaVJHdTMrRWIwcGFKNEd0TDBJY2gwRzBjbDZzc0VKS3ZQYWJrTjJQc2doRThHVjJIRmVUSFVLOE51NDV2TTBRWWV2b3BtYlF1WmlKeXNuZHIwbXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMTEwMDI2CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpQMDVaK2sxSzdsaXpabXBNUzhRV1hiRDFDWTVmYUVFS2dDb1BqRFVIS1ltNnZ3TkVKQkVrcXBVVkU0RWgzLy9nUHo0MUFFZk9PS0NTQm91NnR5ZmxDUT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/beta-v0.3.34/Infiniti_0.3.34_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFFXYzM3NVpSbUd0SEVkblRqQUt4UlNOVUptTTI1Yzc1enh3eDJmNithN0Z2QmlqUGRKN3hieFduOXZmWGc2NSs5OTJSS3JBa0FzSjhVU2xzTjNZMHdzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyODMxMTk2CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpUb3FudVZGRXR5NW5VL2dRUGJzbTI3UmNEM3lPZFFuSGwwbEI3K1BsZWxPWEIxSVZ0U2VlcDdlalJhVjVVM3lVSk5lS2g3bXNOUWtHSzRWN2tSOG5Ddz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/beta-v0.4.14/Infiniti_0.4.14_aarch64.app.tar.gz"
     }
   }
 }
