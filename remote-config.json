@@ -1,7 +1,7 @@
 {
-  "_comment": "Infiniti remote config \u2014 PRD Addendum 14 \u00a7N4.2. SOURCE OF TRUTH lives here; PUBLISH a copy to the PUBLIC infiniti-releases repo (raw URL in apps/desktop/src-tauri/src/config.rs::REMOTE_CONFIG_URL) so the app can fetch it unauthenticated. Update = commit the published copy; the app picks it up on next launch / 6h check. The app degrades gracefully (cache, then these-shaped defaults) if it can't fetch.",
+  "_comment": "Infiniti remote config — PRD Addendum 14 §N4.2. SOURCE OF TRUTH lives here; PUBLISH a copy to the PUBLIC infiniti-releases repo (raw URL in apps/desktop/src-tauri/src/config.rs::REMOTE_CONFIG_URL) so the app can fetch it unauthenticated. Update = commit the published copy; the app picks it up on next launch / 6h check. The app degrades gracefully (cache, then these-shaped defaults) if it can't fetch.",
   "schema_version": 1,
-  "updated_at": "2026-06-28T06:22:21Z",
+  "updated_at": "2026-06-30T14:42:42Z",
   "channels": {
     "beta": {
       "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd",
@@ -35,17 +35,17 @@
     },
     "zoom": {
       "dev": true,
-      "beta": false,
+      "beta": true,
       "stable": false
     },
     "overlay_mode": {
       "dev": true,
-      "beta": false,
+      "beta": true,
       "stable": false
     },
     "home": {
       "dev": true,
-      "beta": false,
+      "beta": true,
       "stable": false
     }
   },
