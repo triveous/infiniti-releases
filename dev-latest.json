@@ -1,11 +1,11 @@
 {
-  "version": "0.5.3",
-  "notes": "**Fixes & polish**\n\n- **The tab-bar divider is back.** The hairline under the toolbar returned —\n  it runs under the back/forward controls, inactive tabs and the right-side\n  controls, and breaks cleanly under the active tab (which stays connected to\n  the note). A regression from 0.5.2's tab change. (Window Chrome & Appearance\n  Spec §13.)",
-  "pub_date": "2026-07-02T04:41:51.520Z",
+  "version": "0.5.4",
+  "notes": "**Fixes & polish**\n\n- **The tab-bar divider is finally right.** It runs continuously under the\n  toolbar and breaks with a single clean gap **only** under the active tab (no\n  stray line beneath it) — and no longer shows a dark band under a tab **while\n  you drag it** (that was the drag \"lift\" shadow; the tab now just lifts and\n  fades). (Window Chrome & Appearance Spec §13.)",
+  "pub_date": "2026-07-02T14:58:13.386Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFJhQkdhUlRjWitmdlZ0S1RXekUycWs3Vi9ST1pnbW1FWDNMWkpGTVJpUzI4WnpWbmFmU0NSOTR3N3JCc3ExMVlKSm5aWDJDYW02aUJLTHBoQmlFNUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyOTY3MzA1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp6MTV1ZzI3REhTa3VoY2pwTmRnTXd6a2hxeXBRY2RKbGI2U0ZBRnpNeWY3TWR2THFmY1AxVDErb3pXMGdiUU1ESHdyY0lONURMZi80TU9jVGxMQmdDZz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.5.3/Infiniti_0.5.3_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFVrZlEvVXhhV3RWZnNHbTBGTEc0QXdlYlM5YkYrUkNZOFBnTVdMRzFwUmtRbW1RMWJob1oxcGc5VlQ4ZjVJQnFOTnRxMDFxM2VQbE9nY2U2SEVJREFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzMDA0Mjg3CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpOS2tPekI5cE9SalNCN1hXT0pBMnF2V0lQOWpQM3AvdUc4YWRkOExzQUlMTmdycFQ1Zmlqc0J2SUJWVWN2dVJ6cmRUVjJNMHZVUDNkVXVyZTZZQWpDdz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.5.4/Infiniti_0.5.4_aarch64.app.tar.gz"
     }
   }
 }
