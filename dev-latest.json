@@ -1,11 +1,11 @@
 {
-  "version": "0.5.2",
-  "notes": "**Fixes & polish**\n\n- **The active tab now matches the note exactly.** It was rendering a touch\n  lighter than the page — two translucent \"glass\" layers were stacking. The tab\n  (and the tab bar) are now the *same* single surface as the note, so the active\n  tab reads as a seamless extension of the page. \"Match content\" stays the\n  default; choose **Accent** in Settings → Appearance to tint it instead.\n  (Window Chrome & Appearance Spec §13 / §16.6 — \"no double-stacked surfaces\".)\n- **Softer corners.** The global corner radius is now 8px (was 4px), rounding\n  every surface — tabs, cards, menus, inputs, panels — a little more.",
-  "pub_date": "2026-07-02T03:53:17.471Z",
+  "version": "0.5.3",
+  "notes": "**Fixes & polish**\n\n- **The tab-bar divider is back.** The hairline under the toolbar returned —\n  it runs under the back/forward controls, inactive tabs and the right-side\n  controls, and breaks cleanly under the active tab (which stays connected to\n  the note). A regression from 0.5.2's tab change. (Window Chrome & Appearance\n  Spec §13.)",
+  "pub_date": "2026-07-02T04:41:51.520Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGZiRDBUaXNzWkx1NmFVSWJtOTM4NnZ4RmFHMXNJWVlrRlljaGdvLzRlMG4zWmEvVXIzbFpkVHpza1NGYVZOMzE3S1NvM2hBYklnVjE0dyt4SGpvSmdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyOTY0MzkyCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpWQWhqeEdvbUdZdjFSazR4cnVxbWQxemx4Wi9aZkp6d01YRW5CTXM5d2YxU0taandkcUFwS25zemhEdFlMMCtid1llR3VCVFVKeTRkWnZZZkxKc1RCdz09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.5.2/Infiniti_0.5.2_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbFJhQkdhUlRjWitmdlZ0S1RXekUycWs3Vi9ST1pnbW1FWDNMWkpGTVJpUzI4WnpWbmFmU0NSOTR3N3JCc3ExMVlKSm5aWDJDYW02aUJLTHBoQmlFNUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyOTY3MzA1CWZpbGU6SW5maW5pdGkuYXBwLnRhci5negp6MTV1ZzI3REhTa3VoY2pwTmRnTXd6a2hxeXBRY2RKbGI2U0ZBRnpNeWY3TWR2THFmY1AxVDErb3pXMGdiUU1ESHdyY0lONURMZi80TU9jVGxMQmdDZz09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.5.3/Infiniti_0.5.3_aarch64.app.tar.gz"
     }
   }
 }
