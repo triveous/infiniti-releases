@@ -3,51 +3,18 @@
   "schema_version": 1,
   "updated_at": "2026-06-30T14:42:42Z",
   "channels": {
-    "beta": {
-      "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd",
-      "expires": "2026-08-31T23:59:59Z"
-    },
-    "stable": {
-      "passphrase_hash": "",
-      "expires": "2027-06-30T23:59:59Z"
-    }
+    "beta": { "passphrase_hash": "sha256:6cf83d2f63c86b4afa9aaf4cba08220c1cb30c039faaec83a5541ec31b70cdfd", "expires": "2026-08-31T23:59:59Z" },
+    "stable": { "passphrase_hash": "", "expires": "2027-06-30T23:59:59Z" }
   },
   "feature_flags": {
-    "graph_view": {
-      "dev": true,
-      "beta": false,
-      "stable": false
-    },
-    "backlinks_panel": {
-      "dev": true,
-      "beta": true,
-      "stable": false
-    },
-    "debug_logging": {
-      "dev": true,
-      "beta": false,
-      "stable": false
-    },
-    "sync": {
-      "dev": true,
-      "beta": false,
-      "stable": false
-    },
-    "zoom": {
-      "dev": true,
-      "beta": true,
-      "stable": false
-    },
-    "overlay_mode": {
-      "dev": true,
-      "beta": true,
-      "stable": false
-    },
-    "home": {
-      "dev": true,
-      "beta": true,
-      "stable": false
-    }
+    "graph_view": { "dev": true, "beta": false, "stable": false },
+    "backlinks_panel": { "dev": true, "beta": true, "stable": false },
+    "debug_logging": { "dev": true, "beta": false, "stable": false },
+    "sync": { "dev": true, "beta": false, "stable": false },
+    "zoom": { "dev": true, "beta": true, "stable": false },
+    "overlay_mode": { "dev": true, "beta": true, "stable": false },
+    "home": { "dev": true, "beta": true, "stable": false },
+    "desktop_keychain": { "dev": true, "beta": false, "stable": false }
   },
   "kill_switches": {
     "graph_view": false,
@@ -55,15 +22,20 @@
     "sync": false,
     "images": false,
     "image_sync": false,
-    "version_history": false
+    "version_history": false,
+    "desktop_keychain": false,
+    "mobile_editor": false,
+    "mobile_sync": false,
+    "mobile_images": false
   },
   "config": {
-    "log_level": {
-      "dev": "debug",
-      "beta": "info",
-      "stable": "info"
-    },
+    "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
     "update_check_interval_hours": 6,
-    "min_supported_version": "0.2.0"
+    "min_supported_version": "0.2.0",
+    "_platforms_comment": "Per-platform update floors (C-07 / Track D-5). Additive: a platform with no entry falls back to the desktop-shaped min_supported_version above. The existing below_min_version(desktop) helper is unchanged. Set real ios/android floors once the mobile apps ship through store review; 0.0.0 blocks nobody.",
+    "platforms": {
+      "ios": { "min_supported_version": "0.0.0" },
+      "android": { "min_supported_version": "0.0.0" }
+    }
   }
 }
