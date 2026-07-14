@@ -27,7 +27,8 @@
     "mobile_editor": false,
     "mobile_sync": false,
     "mobile_images": false,
-    "selection_overlay": false
+    "selection_overlay": false,
+    "theming_glass": false
   },
   "config": {
     "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
