@@ -26,7 +26,8 @@
     "desktop_keychain": false,
     "mobile_editor": false,
     "mobile_sync": false,
-    "mobile_images": false
+    "mobile_images": false,
+    "selection_overlay": false
   },
   "config": {
     "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
