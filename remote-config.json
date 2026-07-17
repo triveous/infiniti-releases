@@ -23,6 +23,7 @@
     "images": false,
     "image_sync": false,
     "version_history": false,
+    "op_backfill": false,
     "desktop_keychain": false,
     "mobile_editor": false,
     "mobile_sync": false,
