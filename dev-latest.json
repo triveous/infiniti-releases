@@ -1,11 +1,11 @@
 {
-  "version": "0.6.7",
-  "notes": "A small fix for a startle where beginning a numbered list briefly made the note look blank.\n\n**Fixes & polish**\n\n- **Starting a numbered list no longer makes the note look blank.** On macOS, typing `1. ` created an empty numbered item whose \"1.\" marker the system webview failed to draw until you typed a character — so the note, and its mentions, appeared to vanish for a moment. Numbered-list markers are now drawn the same reliable way as bullets, so an empty `1.` item shows correctly right away. (Beta report; feedback #6 / PR #575.)\n\n**Under the hood**\n\n- Ordered-list markers now render via a CSS counter `::before` — matching the existing bullet WebKit fix — instead of the native `<li>` marker, and a defensive guard makes a throw in an editor plugin degrade one edit instead of freezing the note. (feedback #6; PR #575.)",
-  "pub_date": "2026-07-21T17:04:38.369Z",
+  "version": "0.6.8",
+  "notes": "Two small fixes: the mentions section stops flickering when you begin a list, and the **×** on a Recents entry now just removes it from Recents.\n\n**Fixes & polish**\n\n- **Starting a list no longer makes the \"Mentioned in…\" section flicker away.** A note where you've begun a numbered or bulleted list — even before you've typed anything into it — is no longer treated as blank, so its mentions and backlinks stay put instead of briefly disappearing. (feedback #6 follow-up; PR #577.)\n- **The × on a Recents item removes it from Recents, not the note.** Clicking the **×** next to a note in the sidebar's Recents list now takes it out of Recents instead of deleting the note. Recents now shows the notes you've actually opened (your existing notes are seeded in once), and real **Delete** stays on the right-click menu. (PR #578.)\n\n**Under the hood**\n\n- Mentions/backlinks visibility is now keyed on a note's block *type*, not just its text, so an empty list item no longer reads as an empty note. Recents (and Home's Recent) are gated on a device-local `last_opened_at` with a one-time seed of existing notes (migration 017) — no sync change. (PRs #577, #578.)",
+  "pub_date": "2026-07-22T07:27:15.329Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGVPb2loOGE1MllPc3ZzQVZwOGk3cDltcVdNZWFkNmpmekVTZjF1azArck1JQjdENm9sZ1Jja0x0bE12eElpMTV0UUlTRXlFODhodjh6cVVzdERxTWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NjUzNDcyCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpKNjlwd2ZGMWI2YmhmeklYWUh1elVoU1VPd3oyaFJVN3NWOEFHb0kxa2hlVkZxM0N6UUo3K3djT1A5cEtwRExUMmlPS0oxWDVhcWhZM1FhMUhRakNBQT09Cg==",
-      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.6.7/Infiniti_0.6.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTUXpCZUwybjgwbGFvQUZZdjA2UVlwSyt5Z0JtSE9XUnBPOW1WYnFIQXVyY0JUS0huazNSeUt3WnVrT1d1ZXZYb1NtMkhPR3owZXlJc1M1Z1ZQL1hxTXRhZ3ZYbUlLeGd3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0NzA1MjMxCWZpbGU6SW5maW5pdGkuYXBwLnRhci5negpPVUtlRlFpMHZaYjc5WnJTUHRVbUVyVDRsK0VuVzJHa2R3NkpVWnZOUDBqN2NEakcvNHcxYUJheWo1VUl6NlNLOEVIbjhKbjdCMHVWOGt6YlMyTHNCUT09Cg==",
+      "url": "https://github.com/triveous/infiniti-releases/releases/download/dev-v0.6.8/Infiniti_0.6.8_aarch64.app.tar.gz"
     }
   }
 }
