@@ -82,6 +82,11 @@
       "dev": true,
       "beta": false,
       "stable": false
+    },
+    "editbar_native": {
+      "dev": true,
+      "beta": false,
+      "stable": false
     }
   },
   "kill_switches": {
@@ -103,7 +108,8 @@
     "tables": false,
     "palette_v2": false,
     "snapshot_onboarding": false,
-    "realtime_enabled": false
+    "realtime_enabled": false,
+    "editbar_native": false
   },
   "config": {
     "log_level": {
