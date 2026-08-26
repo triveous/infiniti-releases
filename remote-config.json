@@ -87,6 +87,11 @@
       "dev": true,
       "beta": false,
       "stable": false
+    },
+    "mobile_journal": {
+      "dev": true,
+      "beta": false,
+      "stable": false
     }
   },
   "kill_switches": {
@@ -109,7 +114,8 @@
     "palette_v2": false,
     "snapshot_onboarding": false,
     "realtime_enabled": false,
-    "editbar_native": false
+    "editbar_native": false,
+    "mobile_journal": false
   },
   "config": {
     "log_level": {
