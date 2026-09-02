@@ -48,7 +48,8 @@
     "realtime_enabled": false,
     "mobile_pro_preview": false,
     "editbar_native": false,
-    "mobile_journal": false
+    "mobile_journal": false,
+    "mobile_shake_feedback": false
   },
   "config": {
     "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
