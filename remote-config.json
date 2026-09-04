@@ -23,7 +23,8 @@
     "realtime_enabled": { "dev": true, "beta": false, "stable": false },
     "mobile_pro_preview": { "dev": true, "beta": false, "stable": false },
     "editbar_native": { "dev": true, "beta": false, "stable": false },
-    "mobile_journal": { "dev": true, "beta": false, "stable": false }
+    "mobile_journal": { "dev": true, "beta": false, "stable": false },
+    "block_touch": { "dev": true, "beta": false, "stable": false }
   },
   "kill_switches": {
     "graph_view": false,
@@ -49,6 +50,7 @@
     "mobile_pro_preview": false,
     "editbar_native": false,
     "mobile_journal": false,
+    "block_touch": false,
     "mobile_shake_feedback": false
   },
   "config": {
