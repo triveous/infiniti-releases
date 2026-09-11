@@ -65,7 +65,7 @@
     },
     "tables": {
       "dev": true,
-      "beta": false,
+      "beta": true,
       "stable": false
     },
     "palette_v2": {
