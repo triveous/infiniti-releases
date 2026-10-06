@@ -135,7 +135,11 @@
     "mobile_journal": false,
     "block_touch": false,
     "mobile_shake_feedback": false,
-    "find_in_note": false
+    "find_in_note": false,
+    "mobile_autocorrect": false,
+    "android_ime_seam": false,
+    "mobile_ime_resync": false,
+    "mobile_pointer_grammar": false
   },
   "config": {
     "log_level": {
