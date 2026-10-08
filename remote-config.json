@@ -139,7 +139,8 @@
     "mobile_autocorrect": false,
     "android_ime_seam": false,
     "mobile_ime_resync": false,
-    "mobile_pointer_grammar": false
+    "mobile_pointer_grammar": false,
+    "android_clipboard_read": false
   },
   "config": {
     "log_level": {
