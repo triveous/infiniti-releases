@@ -67,7 +67,8 @@
     "android_receive_content": false,
     "android_fcm": false,
     "android_family_d": false,
-    "android_landing_prewarm": false
+    "android_landing_prewarm": false,
+    "own_op_replay": false
   },
   "config": {
     "log_level": { "dev": "debug", "beta": "info", "stable": "info" },
